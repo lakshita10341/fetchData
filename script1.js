@@ -1,7 +1,7 @@
 const showTable=()=>{
     try {
    
-        let promise = fetch('https://reqres.in/api/users');
+        let promise = fetch('https://reqres.in/api/users?page=2');
         promise.then((value1) => {
             
             return value1.json();
@@ -40,5 +40,3 @@ const showTable=()=>{
     }
 }
 showTable();
-//`${url}&page=${page}`
-//DIVIDE IT IN FUNCTTIONS
