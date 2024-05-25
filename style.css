@@ -33,23 +33,30 @@ tr{
   
 
 }
+
+
 .page {
-    background-color: black;
+    text-align: center;
+    /* margin-top: 20px; */
 }
 
-.page a {
+#click {
+    background-color: black; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
     text-decoration: none;
-    color: white; 
-    background-color: blue; 
-    padding: 10px 20px; 
-    border: none; 
-    border-radius: 5px; 
-    display: inline-block; 
-    cursor: pointer; 
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    transition: background-color 0.3s ease;
 }
 
-.page a:hover {
-    background-color: darkblue; 
+#click:hover {
+    background-color: rgba(0,0,0,0.8);
 }
 
 
